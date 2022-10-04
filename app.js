@@ -12,7 +12,7 @@ app.get('/', function (req, res) {
 const mounth = ["janvier","fevrier","mars","avril","mai","juin","juillet","aout","septembre","octobre","novembre","decembre"]
 
 	res.render('./views/Home', {
-		title: 'MA - CD',
+		title: 'MA - CD - FM',
 		cards: [
 			{
 				title: 'Our Changing Planet',
